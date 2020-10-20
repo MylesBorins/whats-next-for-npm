@@ -1,0 +1,39 @@
+* A history lesson
+  - npm created
+  - node_modules
+  - npm vs node resolution algotihm
+  - npm becomes a company
+  - npm is acquired
+  - today 🎉
+* npm 7
+  - npm install -g npm@7
+  - Node.js 15
+  - Workspaces
+  - Peer Deps
+    - --legacy-peer-deps
+    - --strict-peer-deps
+    - --force
+  - Support for yarn
+  - npx now uses npm exec
+  - new pacakge-lock foramt
+  - support for yarn.ock
+  - install from a github PR! `npm i user/project#pull/123`
+  - --ignore-scripts
+  - npm ls is now only top-level deps
+  - improved npm fund output
+  - improved npm audit output
+  - major refactoring
+    - @npmcli/arborist the new npm install system
+    - @npmcli/config the new npm config
+    - @npmcli/run-script the new npm run
+    - @npmcli/map-workspaces read workspaces configs
+    - libnpmfund npm fund Programmatic API
+* npm roadmap + feedback process
+  - https://github.com/npm/roadmap
+  - https://github.com/npm/feedback
+  - Based on GitHub Process
+  - Project Board
+  - Issues for items on roadmap
+  - Discussions for suggestions
+  - What makes good feedback?
+  - Public meetings to discuss incoming feedback
