@@ -53,8 +53,8 @@ html
         h1 What even is npm?
 
       section(data-bespoke-backdrop='js')
-        h2 npm is
-        h3 a critical part of the JavaScript community
+        h3 npm is
+        h2 a critical part of the JavaScript community
         h4 one of the largest developer ecosystems in the world
 
       section(data-bespoke-backdrop='nodejs')
@@ -75,6 +75,81 @@ html
         h3 npm currently supports millions of devlopers
         h2 over 1.3 million packages
         h3 with over 75 Billion downloads a month
+
+      section
+        h1 npm 7
+
+      section
+        h4 Shipping with Node.js 15
+        h5 or download with
+        h3 npm install npm@7
+
+      section
+        h2 New Features!
+        ul
+          li.hide
+          li Workspaces
+          li Peer Dependencies installed by default
+          li Support for yarn lockfiles
+          li package-lock v2
+          li install from a GitHub PR!
+
+      section.small-code
+        h2 Workspaces
+        pre
+          code.language-javascript.
+            {
+              "workspaces": ["module-1", "module-2"]
+            }
+        pre
+          code.language-bash.
+              $ ls
+              
+
+      section
+        h2 Peer Dependencies
+        ul
+          li.hide
+          li Now installed by default
+          li Can be a breaking change
+          li Try   - - force if you get an error
+          li You can also try  - - legacy-peer-deps
+          li export npm_legacy_peer_deps=true
+          li why not  - - strict-peer-deps
+
+      section
+        h2 Install from a GitHub PR
+        pre.headroom
+          code.language-bash.
+              $ npm install user/project#pull/123
+
+      section
+        h2 Some breaking changes
+        ul
+          li.hide
+          li Peer Dependencies installed by default
+          li npm uses package.exports
+          li npx rewrite using `npm exec`
+          li `npm ls` only outputs top-level deps
+          li changes to fund + audit output
+
+      section
+        h2 What's next?
+        ul
+          li.hide
+          li More Tests
+          li More Docs
+          li Improved Stability
+          li Improved Performance
+          li More Workspace features
+          li Package Overrides
+          li what our community asks for...
+
+      section
+        h2 Public Roadmap
+        h3 and
+        h2 Feedback Process
+
       section
         h2 Thank You
         img.headroom(src='images/best-gif-evar.gif' alt='a surfing puppy' width='20%')
